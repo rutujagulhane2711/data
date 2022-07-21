@@ -45,15 +45,6 @@ def calculate_bmi(data):
         return {"Height":h1,"Weight":w1,"Gender":g1,"BMI Category": "Very Severely Obese","BMI Range (kg/m²)" : "40 and above",
                 "Health Risk":"Very High Risk"}
 
-
-# if __name__ == '__main__':
-#     lst = [{"Gender": "Male", "HeightCm": 171, "WeightKg": 200},
-#           {"Gender": "Male", "HeightCm": 161, "WeightKg": 85},
-#           {"Gender": "Male", "HeightCm": 180, "WeightKg": 77},
-#           {"Gender": "Female", "HeightCm": 166, "WeightKg": 62},
-#           {"Gender": "male", "HeightCm": 167, "WeightKg": 82},
-#           {"Gender": "Female", "HeightCm": 167, "WeightKg": 82}]
-    # final_lst = []
 for data in lst:
     bmi = calculate_bmi(data)
     final_lst.append(bmi)
